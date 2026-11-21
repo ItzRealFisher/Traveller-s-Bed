@@ -1,0 +1,17 @@
+name: TravellersBed
+version: 1.0.0
+main: org.itzfisher.travellersbed.TravellersBedPlugin
+api-version: '26.2'
+authors: [itzfisher]
+commands:
+  travellerbed:
+    description: Traveller's Bed administration
+    usage: /travellerbed help
+permissions:
+  travellersbed.use: { default: true }
+  travellersbed.craft: { default: true }
+  travellersbed.admin: { default: op }
+  travellersbed.give: { default: op }
+  travellersbed.reload: { default: op }
+  travellersbed.info: { default: op }
+  travellersbed.debug: { default: op }
