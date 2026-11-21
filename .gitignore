@@ -1,0 +1,8 @@
+plugin/.gradle/
+plugin/build/
+server/world*/
+server/logs/
+server/cache/
+server/libraries/
+server/plugins/*.jar
+server/eula.txt
