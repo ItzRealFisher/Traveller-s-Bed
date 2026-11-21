@@ -1,0 +1,22 @@
+plugin:
+  debug: false
+crafting:
+  enabled: true
+  required-log: OAK_LOG
+  accept-all-bed-colours: true
+  preserve-bed-colour: true
+bed:
+  prevent-spawn-setting: true
+  reusable: true
+  custom-name: "&bTraveller's Bed"
+  enchantment-glint: false
+sleep:
+  vanilla-mechanics: true
+  respect-sleep-percentage: true
+drops:
+  survival: true
+  creative: false
+  explosion-drops: true
+messages:
+  prefix: "&8[&bTraveller's Bed&8] "
+  no-permission: "&cYou do not have permission."
